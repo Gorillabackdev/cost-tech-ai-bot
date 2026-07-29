@@ -7,7 +7,7 @@ require('dotenv').config();
 const express = require('express');
 const TelegramBot = require('node-telegram-bot-api');
 
-const { askGemini, resetHistory } = require('./gemini');
+const { askGemini, resetHistory } = require('./groq');
 const { WELCOME_MESSAGE, HELP_MESSAGE } = require('./prompts');
 const { chunkMessage } = require('./estimator');
 
