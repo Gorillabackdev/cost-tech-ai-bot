@@ -34,7 +34,7 @@ cp .env.example .env
 Fill in `.env`:
 - `TELEGRAM_BOT_TOKEN` — from [@BotFather](https://t.me/BotFather) on Telegram
 - `GEMINI_API_KEY` — from [Google AI Studio](https://aistudio.google.com/app/apikey)
-
+GROQ_API_KEY = your Groq key
 Run it:
 ```bash
 npm start
